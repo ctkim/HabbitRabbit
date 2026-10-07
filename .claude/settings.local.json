@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -0 sed -i '' -e 's/HabitRabbit/HabbitRabbit/g' -e 's/habitrabbit/habbitrabbit/g' -e 's/habit_rabbit/habbit_rabbit/g' -e 's/Habit/Habbit/g' -e 's/\\\\\\([^a-zA-Z_]\\\\\\)habit\\\\\\([^a-zA-Z_s]\\\\\\)/\\\\1habbit\\\\2/g' -e 's/^habit\\\\\\([^a-zA-Z_s]\\\\\\)/habbit\\\\1/g' -e 's/\\\\\\([^a-zA-Z_]\\\\\\)habits\\\\\\([^a-zA-Z_]\\\\\\)/\\\\1habbits\\\\2/g')",
+      "Bash(xargs -0 sed -i '' 's/habit/habbit/g')",
+      "Bash(rm -rf app/build .gradle)",
+      "Read(//Users/e.kim/AndroidStudioProjects/**)",
+      "Bash(mv HabitRabbit HabbitRabbit)"
+    ]
+  }
+}

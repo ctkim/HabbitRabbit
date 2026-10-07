@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Soft halo behind the subject -->
+    <path
+        android:fillColor="#F9ECE3"
+        android:pathData="M87,257 A169,169 0 1,0 425,257 A169,169 0 1,0 87,257 Z" />
+
+    <!-- Body -->
+    <path
+        android:fillColor="#EDDFC7"
+        android:strokeColor="#66534D"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M227,296C199,317 187,346 190,369C192,388 212,394 233,391C255,399 288,398 307,386C326,374 320,350 308,330C297,310 279,300 260,295Z" />
+
+    <!-- Shadow patch on body -->
+    <path
+        android:fillColor="#96929A"
+        android:pathData="M288,324C308,334 319,355 313,371C304,382 287,382 277,367C270,354 277,334 288,324Z" />
+
+    <!-- Arms -->
+    <path
+        android:fillColor="#FFF3DF"
+        android:strokeColor="#66534D"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M210,338C203,345 201,356 205,363C208,369 217,369 220,362C223,356 221,347 217,343" />
+    <path
+        android:fillColor="#FFF3DF"
+        android:strokeColor="#66534D"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M251,339C257,345 261,356 258,363C255,370 247,371 243,364C239,358 240,348 243,343" />
+
+    <!-- Feet -->
+    <path
+        android:fillColor="#FFF3DF"
+        android:strokeColor="#66534D"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M217,378C205,378 195,386 195,394C195,397 198,399 202,399H228C232,399 235,397 235,393C235,384 227,378 217,378Z" />
+    <path
+        android:fillColor="#FFF3DF"
+        android:strokeColor="#66534D"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M278,378C267,378 256,385 256,393C256,397 259,399 263,399H290C295,399 298,397 298,394C298,386 289,378 278,378Z" />
+
+    <!-- Toe lines -->
+    <path
+        android:strokeColor="#C8AE97"
+        android:strokeWidth="3"
+        android:pathData="M207,391V397M218,391V398M274,391V398M285,391V397" />
+
+    <!-- Pale far ear (behind cheek) -->
+    <path
+        android:fillColor="#E6CCAC"
+        android:strokeColor="#66534D"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M174,201C151,204 139,232 133,259C127,285 121,317 128,334C134,350 147,349 158,334C174,313 180,283 184,258C189,226 188,207 174,201Z" />
+
+    <!-- Ear inner detail -->
+    <path
+        android:strokeColor="#D3AC9D"
+        android:strokeWidth="4"
+        android:pathData="M157,248Q141,287 139,326" />
+
+    <!-- Paper crown -->
+    <path
+        android:fillColor="#DCA17F"
+        android:strokeColor="#66534D"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M209,163L204,128L229,148L246,119L259,147L281,130L275,170Z" />
+    <path
+        android:strokeColor="#B87F65"
+        android:strokeWidth="4"
+        android:pathData="M215,162Q246,154 271,168" />
+
+    <!-- Head/cheek base fill (outline drawn later, on top of patches) -->
+    <path
+        android:fillColor="#FFF3DF"
+        android:pathData="M166,202C171,169 204,150 239,155C273,149 310,169 321,204C335,232 327,263 310,283C300,312 275,331 239,331C210,337 174,323 159,302C144,287 141,269 147,248C150,232 158,216 166,202Z" />
+
+    <!-- Head-clipped fur patches -->
+    <group>
+        <clip-path android:pathData="M166,202C171,169 204,150 239,155C273,149 310,169 321,204C335,232 327,263 310,283C300,312 275,331 239,331C210,337 174,323 159,302C144,287 141,269 147,248C150,232 158,216 166,202Z" />
+        <path
+            android:fillColor="#96929A"
+            android:pathData="M293,175C278,192 272,211 281,229C290,250 310,252 327,280L343,218L318,172Z" />
+        <path
+            android:fillColor="#E9C8A0"
+            android:pathData="M166,182C184,165 198,163 220,158C208,179 192,180 184,194C177,206 170,211 162,213Z" />
+        <path
+            android:fillColor="#F1DEC1"
+            android:pathData="M239,159Q253,175 242,192Q228,184 229,162Z" />
+        <path
+            android:fillColor="#CBC3BD"
+            android:pathData="M154,254C162,247 174,244 180,252C172,265 164,273 155,279C151,271 150,262 154,254Z" />
+        <path
+            android:fillColor="#F0DEC2"
+            android:pathData="M232,325Q285,310 298,285Q307,297 300,321L255,343Z" />
+    </group>
+
+    <!-- Head outline on top -->
+    <path
+        android:strokeColor="#66534D"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M166,202C171,169 204,150 239,155C273,149 310,169 321,204C335,232 327,263 310,283C300,312 275,331 239,331C210,337 174,323 159,302C144,287 141,269 147,248C150,232 158,216 166,202Z" />
+
+    <!-- Lop ear base -->
+    <path
+        android:fillColor="#81818D"
+        android:pathData="M316,204C341,204 354,229 358,258C362,289 367,314 365,336C364,353 356,366 344,361C324,353 313,334 308,305L297,242C293,220 300,205 316,204Z" />
+
+    <!-- Lop ear patches (clipped to the ear shape) -->
+    <group>
+        <clip-path android:pathData="M316,204C341,204 354,229 358,258C362,289 367,314 365,336C364,353 356,366 344,361C324,353 313,334 308,305L297,242C293,220 300,205 316,204Z" />
+        <path
+            android:fillColor="#B3ADB0"
+            android:pathData="M299,213Q320,224 322,251Q312,264 304,258Z" />
+        <path
+            android:fillColor="#B3ADB0"
+            android:pathData="M333,231Q342,245 340,263Q356,267 365,253L360,223Z" />
+        <path
+            android:fillColor="#B3ADB0"
+            android:pathData="M302,284Q326,267 336,282Q340,291 329,304Q319,315 313,333Z" />
+        <path
+            android:fillColor="#B3ADB0"
+            android:pathData="M343,323Q355,303 369,306L373,347Q355,348 343,323Z" />
+    </group>
+
+    <!-- Lop ear outline -->
+    <path
+        android:strokeColor="#66534D"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:pathData="M316,204C341,204 354,229 358,258C362,289 367,314 365,336C364,353 356,366 344,361C324,353 313,334 308,305L297,242C293,220 300,205 316,204Z" />
+
+    <!-- Eyes -->
+    <path
+        android:fillColor="#292B2E"
+        android:pathData="M167,235 A13,16 0 1,0 193,235 A13,16 0 1,0 167,235 Z" />
+    <path
+        android:fillColor="#292B2E"
+        android:pathData="M254,235 A13,16 0 1,0 280,235 A13,16 0 1,0 254,235 Z" />
+
+    <!-- Muzzle -->
+    <path
+        android:fillColor="#F9E7CB"
+        android:pathData="M216,272C200,258 177,270 181,287C184,302 204,308 217,296C229,308 252,304 255,287C258,270 233,259 216,272Z" />
+    <path
+        android:fillColor="#BE8C7E"
+        android:pathData="M205,270Q216,265 225,270Q229,274 222,279L216,284L207,278Q200,274 205,270Z" />
+    <!-- Mouth -->
+    <path
+        android:strokeColor="#82645A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M216,283V290M216,290C213,292 210,293 207,292M216,290C219,292 222,293 225,292" />
+    <!-- Whiskers -->
+    <path
+        android:strokeColor="#B9A494"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M178,279L154,274M177,290L153,294M253,278L280,272M254,290L282,292" />
+    <!-- Fur accents -->
+    <path
+        android:strokeColor="#D5C0A5"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M212,183L208,193M221,180L219,189M237,312L241,308" />
+
+</vector>

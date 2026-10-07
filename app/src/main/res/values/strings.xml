@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HabbitRabbit</string>
+    <string name="widget_description">Check off today\'s habbits</string>
+</resources>
